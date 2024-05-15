@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(175deg, #5856da, #86d144);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.parent{
+    gap: 20px;
+    display: flex;
+    padding: 20px;
+    /* width: 80%;     */
+}
+.box{
+    padding: 20px;
+    border-radius: 50px;
+    color: aliceblue;
+    background-color: #000;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px
+}
+input,textarea{
+    color: #000;
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+textarea{
+    appearance: none;
+    resize: none;
+}
+button{
+    padding: 5px;
+    background-color: aliceblue;
+    color: #000;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 50%;
+    border-radius: 50px;
+}
+button:hover{
+    background-color: #000;
+    color: aliceblue;
+}
+.box2{
+    padding: 20px;
+    border-radius: 50px;
+    color: aliceblue;
+    background-color: #000;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px
+}
+/* .update{
+    width: 400px;
+    height: 400px;
+    overflow: auto;
+    border: none;
+    outline: none;
+    padding: 10px;
+} */
+/* #userpara{
+    color: #000;
+} */
+
+/* @media screen and (max-width:768px) {
+    .parent{
+        gap: 20px;
+        display:inline;
+        padding: 20px;
+        width: 80%;
+        height: 100vh;
+    }
+    .box{
+        height: 200px;
+        width: 200px;
+    }
+    .box2{
+        height: 200px;
+        width: 200px;
+    }
+} */
