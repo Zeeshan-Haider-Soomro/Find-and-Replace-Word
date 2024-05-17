@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
     height: 100vh;
 }
 .parent{
@@ -71,35 +72,11 @@ button:hover{
     flex-direction: column;
     gap: 20px
 }
-/* .update{
-    width: 400px;
-    height: 400px;
-    overflow: auto;
-    border: none;
-    outline: none;
-    padding: 10px;
-} */
-/* #userpara{
-    color: #000;
-} */
 
-/* @media screen and (max-width:768px) {
-    .parent{
-        gap: 20px;
-        display:inline;
-        padding: 20px;
-        width: 80%;
-        height: 100vh;
-    }
-    .box{
-        height: 200px;
-        width: 200px;
-    }
-    .box2{
-        height: 200px;
-        width: 200px;
-    }
-} */
+footer{
+    color: aliceblue;
+}
+
 @media screen and (min-width:320px) and (max-width:700px){
     .box{
     margin-top: -230px;
