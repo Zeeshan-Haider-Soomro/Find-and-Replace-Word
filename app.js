@@ -1,3 +1,8 @@
+
+let date = new Date()
+let yearChanger = document.querySelector("#yearChanger");
+yearChanger.innerText = date.getFullYear()
+
 function replaceWord(){
     let paragraph = document.querySelector("#paragraph")
     let find = document.querySelector("#find")
